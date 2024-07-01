@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: yellow;
+}
+li.dropdown ul {
+    position: absolute;
+  display: none;
+}
+li.dropdown:is(:hover, :focus, :active) ul {
+  display: flex;
+}
